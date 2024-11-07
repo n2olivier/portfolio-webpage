@@ -271,12 +271,14 @@ span {
     height: 100%;
     background: linear-gradient(rgba(0,0,0, .1), var(--main-color));
     display: flex;
+    backdrop-filter: blur(10px);
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
     transform: translateY(100%);
+    outline: none;
     transition: .5s ease;
 }
 
