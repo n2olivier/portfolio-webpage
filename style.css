@@ -493,34 +493,3 @@ span {
         width: 100%;
     }
 }
-
-
-header.dark-mode, footer.dark-mode {
-    background-color: #252535;
-    color: #f5f5f7;
-  }
-  
-  button.dark-mode {
-    background-color: #333;
-    color: #fff;
-  }
-  
-  /* Toggle button styling */
-  .toggle-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 10px 15px;
-    background-color: #4CAF50; /* Match your primary theme color */
-    color: white;
-    border: none;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: background-color 0.3s, color 0.3s;
-  }
-  
-  .toggle-btn:hover {
-    background-color: #333; /* Dark hover effect */
-    color: #FFC107; /* Accent color on hover */
-  }

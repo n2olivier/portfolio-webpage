@@ -40,19 +40,3 @@ window.onscroll = () => {
 };
 
 
-const toggle = document.getElementById('darkModeToggle');
-
-// Load dark mode state from localStorage
-if (localStorage.getItem('dark-mode') === 'enabled') {
-  document.body.classList.add('dark-mode');
-  toggle.textContent = '☀️ Light Mode';
-}
-
-// Toggle dark mode on button click
-toggle.addEventListener('click', () => {
-  const darkModeEnabled = document.body.classList.toggle('dark-mode');
-  toggle.textContent = darkModeEnabled ? '☀️ Light Mode' : '🌙 Dark Mode';
-
-  // Save user preference to localStorage
-  localStorage.setItem('dark-mode', darkModeEnabled ? 'enabled' : 'disabled');
-});
